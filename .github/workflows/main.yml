@@ -10,8 +10,3 @@ jobs:
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
-      with:
-        server: ftp.solidproject.id
-        username: solidproject@solidproject.id
-        password: solidproject2022
-        server-dir: /public_html/msib/
